@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/applaudo-studio-marvel-app/static/css/main.e422ab3f.chunk.css",
+    "main.js": "/applaudo-studio-marvel-app/static/js/main.0c4a63e7.chunk.js",
+    "main.js.map": "/applaudo-studio-marvel-app/static/js/main.0c4a63e7.chunk.js.map",
+    "runtime-main.js": "/applaudo-studio-marvel-app/static/js/runtime-main.ee999323.js",
+    "runtime-main.js.map": "/applaudo-studio-marvel-app/static/js/runtime-main.ee999323.js.map",
+    "static/css/2.95f25948.chunk.css": "/applaudo-studio-marvel-app/static/css/2.95f25948.chunk.css",
+    "static/js/2.c81c1b73.chunk.js": "/applaudo-studio-marvel-app/static/js/2.c81c1b73.chunk.js",
+    "static/js/2.c81c1b73.chunk.js.map": "/applaudo-studio-marvel-app/static/js/2.c81c1b73.chunk.js.map",
+    "index.html": "/applaudo-studio-marvel-app/index.html",
+    "static/css/2.95f25948.chunk.css.map": "/applaudo-studio-marvel-app/static/css/2.95f25948.chunk.css.map",
+    "static/css/main.e422ab3f.chunk.css.map": "/applaudo-studio-marvel-app/static/css/main.e422ab3f.chunk.css.map",
+    "static/js/2.c81c1b73.chunk.js.LICENSE.txt": "/applaudo-studio-marvel-app/static/js/2.c81c1b73.chunk.js.LICENSE.txt",
+    "static/media/header.scss": "/applaudo-studio-marvel-app/static/media/banner.0d366794.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ee999323.js",
+    "static/css/2.95f25948.chunk.css",
+    "static/js/2.c81c1b73.chunk.js",
+    "static/css/main.e422ab3f.chunk.css",
+    "static/js/main.0c4a63e7.chunk.js"
+  ]
+}
