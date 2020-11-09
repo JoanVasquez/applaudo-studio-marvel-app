@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto-Regular Open Sans", "Lato", sans-serif;
+}
+
+html,
+body {
+  background-color: #fafafa;
+  font-size: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Permanent-Marker-Regular" !important;
+  font-weight: 400;
+  text-transform: uppercase;
+}

@@ -1,0 +1,83 @@
+##STRUCTURE
+
+- src
+  - assets
+    - css
+      - style
+    - fonts
+      - Roboto
+      - Permanent Marker
+    - images
+      - banner
+  - components
+    - **alert**: Alert component
+    - **character-card**: A card for the characters
+    - **cookie-banner**: A banner for the cookies
+    - **footer**: The footer of the application
+    - **header**: The header of the application
+    - **horizontal-card**: A generic card to be re-used
+    - **input-filter**: An input component to filter data
+    - **list-group**: A list component to list data
+    - **loading**: Generic component for loading
+    - **navbar**: Our navbar component
+    - **no-found**: A component for 404 error
+    - **paginator**: A generic component for the pagination
+    - **story-card**: A card for the stories
+  - configuration
+    - **MarverApiConfig**: Configuration for the Marvel API
+  - constants
+  - services
+    - **CharacterService**
+      - getAllCharacters
+      - getCharacterById
+      - getComicsByCharacter
+      - getStoriesByCharacter
+    - **ComicService**
+      - getAllComics
+      - getComicById
+      - getCharactersByComic
+      - getStoriesByComic
+    - **StoryService**
+      - getAllStories
+      - getStoryById
+      - getCharactersByStory
+      - getComicsByStory
+  - store
+    - **store**: Redux Configuration
+      - actions
+        - **characters**
+        - **comics**
+        - **pagination**
+        - **stories**
+      - reducers
+        - **characters**
+        - **comics**
+        - **pagination**
+        - **stories**
+        - **allReducers**: Combination of reducers
+  - util
+    - **actionCreator**
+    - **reducerCreator**
+    - **paginationUtil**
+    - **filterUtil**
+    - **LocalStorageUtil**
+  - view: Layouts to be displayed
+    - **404**
+    - characters
+      - **Character**
+      - **CharacterDetails**
+      - **CharacterWrapper**: A HOC to display characters
+      - **ComicsByCharacter**
+      - **sStoryByCharacter**
+    - comics
+      - **Comics**
+      - **CharactersByComic**
+      - **ComicdETAILS**
+      - **ComicWrapper**: A HOC to display comics
+      - **StoriesByComic**
+    - stories
+      - **Stories**
+      - **ComicByStory**
+      - **StoriesWrapper**: A HOC to display stories
+      - **StoryDetails**
+    - App
